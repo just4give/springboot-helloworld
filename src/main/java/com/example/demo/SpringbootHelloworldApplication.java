@@ -16,6 +16,6 @@ public class SpringbootHelloworldApplication {
 	
 	@RequestMapping(value="/hello/{name}")
 	public String greet(@PathVariable("name") String name){
-		return String.format("Hi there, %s", name);
+		return String.format("Hi there! %s", name);
 	}
 }
